@@ -1,4 +1,4 @@
-Initializing your own local repository
+    Initializing your own local repository
 	Create a folder for your local repository with "mkdir MyProject"
 	"cd MyProject"
     Initialize the repository using "git init"
@@ -13,7 +13,7 @@ Initializing your own local repository
 
 
     
-        <h1>Remote repositories & branching workflows</h1>
+        Remote repositories & branching workflows
         
         
         
@@ -26,7 +26,7 @@ Initializing your own local repository
 
  
     
-        <h1>Comitting one out of two</h1>
+        Comitting one out of two
         "git status"
         git add [some files]
         git commit [some files]
@@ -36,7 +36,7 @@ Initializing your own local repository
 
  
     
-        <h1>Ignoring files</h1>
+        Ignoring files
         If you create a file in your repository named .gitignore, Git uses it to determine which files and directories to ignore, before you make a commit.
         .gitignore file should be committed into your repository, in order to share the ignore rules with any other users that clone the repository
     
@@ -45,7 +45,7 @@ Initializing your own local repository
 
  
     
-        <h1>Merging vs rebasing</h1>
+        Merging vs rebasing
         Merging is nice because it’s a non-destructive operation
         The existing branches are not changed in any way
         The major benefit of rebasing is that you get a much cleaner project history
@@ -57,7 +57,7 @@ Initializing your own local repository
 
  
     
-        <h1>Rewriting History</h1>
+        Rewriting History
         Modify last commit message
         "git commit --amend"
         Modify multiple messages
@@ -68,7 +68,7 @@ Initializing your own local repository
 
  
     
-        <h1>Stash your work</h1>
+        Stash your work
         git stash
     
 
