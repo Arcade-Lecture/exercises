@@ -45,11 +45,11 @@ between different kinds of workflows:
 
 Commit A first
 
-git commit A -m "Add A"
+    git commit A -m "Add A"
 
 Commit B
 
-git commit B -m "Add B"
+    git commit B -m "Add B"
 
 ## 4.Ignoring files:
 
