@@ -1,0 +1,10 @@
+to install 
+  sudo -S apt-get -y install apache2-dev libapr1-dev libaprutil1-dev 
+ to detect the version 
+ dpkg -l 'libapr1-dev' 
+ 
+the version I'm using
+
+||/ Name           Version      Architecture Description
++++-==============-============-============-=====================================================
+ii  libapr1-dev    1.5.2-3      amd64        Apache Portable Runtime Library - Development Headers

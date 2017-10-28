@@ -1,0 +1,4 @@
+-r I use clang for this reason: Clang is much faster and uses far less memory than GCC. \n please refere to this page \n https://clang.llvm.org/features.html#performance
+I use clang for this reason: Clang is much faster and uses far less memory than GCC. 
+ please refere to this page 
+ https://clang.llvm.org/features.html#performance
