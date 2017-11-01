@@ -1,0 +1,5 @@
+The libapr version I installed is 1.6.3.
+I downloaded the archive from the website, unpacked it and ran
+./configure
+make
+make install
