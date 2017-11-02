@@ -1,0 +1,7 @@
+Why GDB?
+
+- relatively easy to use
+- ability to step by step through the code to expose errors more 
+easily(generally debuggers)
+- abilty to stop execution at certain point(generally debuggers)
+- runs on many different systems which makes it more available 
