@@ -1,0 +1,42 @@
+APR 1.6.3
+APR-util 1.6.1
+
+How to install APR & APR-util on MAC 
+
+download tar file from https://apr.apache.org/download.cgi
+
+# extract it and go into the source
+tar -xzvf apr-1.6.3.tar.gz
+cd apr-1.6.3
+
+# you need this on OSX Yosemite
+touch libtoolT
+
+# configure, make, make install
+./configure
+make
+sudo make install
+
+# reset and cleanup
+cd /tmp
+rm -rf apr-1.6.3 apr-1.6.3.tar.gz
+
+# do the same with apr-util
+curl -L -O http://archive.apache.org/dist/apr/apr-util-1.6.1.tar.gz
+
+# extract
+tar -xzvf apr-util-1.6.1.tar.gz
+cd apr-util-1.6.1
+
+# you need this on OSX Yosemite
+touch libtoolT
+
+# configure, make, make install
+./configure --with-apr=/usr/local/apr
+# you need that extra parameter to configure because
+# apr-util can't really find it because...who knows.
+
+make
+sudo make install
+
+source :https://gist.github.com/zedshaw/4e14bbca46eb21aad08d
