@@ -1,0 +1,6 @@
+Compiler Choice
+
+I choosed clang for two reasons:
+	1. It comes with XCode on Mac in an actual version.
+	2. I also used it in Programming Paradigms and I got the
+	   best results for error messages and speed.
