@@ -41,6 +41,7 @@ between different kinds of workflows:
    by the gate keepers....other workflows doesn't need such restriction.
 
 > How choosing the workload will effect his work?
+
 for example if the remote repository follows centerlized workload, for reasons it is small software project. if my friend will choose git flow layout, it is perfectly fine..but it would be more complex than dealing with the centralized.
 
 > Rule of thumb:
