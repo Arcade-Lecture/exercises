@@ -1,0 +1,4 @@
+Reason for using GDB :
+
+GDB is more feature complete, i.e,
+It allows user to alter exection of computer program and change variable values during execution
