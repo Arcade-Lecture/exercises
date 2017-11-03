@@ -1,0 +1,1 @@
+I chose Clang because i’ve found out it’s much more user friendly than GCC. i’ve also read that, clang’s clear diagnostics are easier for beginners to interpret.
