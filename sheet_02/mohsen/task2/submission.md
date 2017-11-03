@@ -40,6 +40,19 @@ between different kinds of workflows:
 * flixible vs restricted: in the forking workflow...changes are made by contributors via pull requestes to be accepted
    by the gate keepers....other workflows doesn't need such restriction.
 
+> How choosing the workload will effect his work?
+for example if the remote repository follows centerlized workload, for reasons it is small software project. if my friend will choose git flow layout, it is perfectly fine..but it would be more complex than dealing with the centralized.
+
+> Rule of thumb:
+
+Centralized: small project, single developer maybe.
+
+Feature: small project, more than one developer.
+
+gitflow: medium to large project more than one developer.
+
+forking: open source software.
+
 
 ## 3.Committing one out of two:
 
