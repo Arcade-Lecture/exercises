@@ -1,0 +1,12 @@
+* install libapr1:
+	* I installed version 1.6.3 by building the source downloaded from apache websie using below commands
+	`wget http://apache.lauf-forum.at//apr/apr-1.6.3.tar.gz`
+	`tar -zxvf apr-1.6.3.tar.gz`
+	`cd apr-1.6.3/`
+	`./configure`
+	`sudo make`
+	`sudo make install`
+
+* install libapr1-dev
+	* Installed version 1.4.8.3 using below command
+		`yum install apr-devel`
