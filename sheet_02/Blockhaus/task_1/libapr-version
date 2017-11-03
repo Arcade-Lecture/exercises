@@ -1,0 +1,6 @@
+I installed libapr1 via the apt package manager with the command:
+$ sudo apt install libapr1 libapr1-dev
+
+The version the packet managet installed is:
+libapr1: 1.5.2-5
+libapr1-dev: 1.5.2-5

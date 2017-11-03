@@ -1,0 +1,2 @@
+I choose the llvm compiler framework with Clang as C compiler because it has a faster average compiler time than the alternatives,
+superior code analysis abilities over gcc and not to forget the better diagnostics and easy extendability of diagnosis.
