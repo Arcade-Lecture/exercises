@@ -17,11 +17,8 @@ Initializing your own local repository
     
 Remote repositories & branching workflows
         
-        
-        
-        
-        
-        
+    Remote repository
+    With "git remote add origin <url of repository>" you can make a copy of an existing git repository and copy it into a local directory
 
     
 
@@ -51,6 +48,8 @@ Ignoring files
     
 Merging vs rebasing
     
+    "git merge <branch a> <branch b>"
+    "git rebase master"
     Merging is nice because it’s a non-destructive operation
     The existing branches are not changed in any way
     The major benefit of rebasing is that you get a much cleaner project history
@@ -67,7 +66,7 @@ Rewriting History
     Modify last commit message
     "git commit --amend"
     Modify multiple messages
-    git rebase -i
+    git rebase -i HEAD~3
             
     
 
@@ -77,7 +76,7 @@ Rewriting History
     
 Stash your work
 
-    git stash
-    
+    With "git stash" you can save the current state of your repository and go back to a clean state.
+    Use "git stash pop" to go back to the state with the changed files.
 
 
