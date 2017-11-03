@@ -18,7 +18,12 @@ Initializing your own local repository
 Remote repositories & branching workflows
         
     Remote repository
-    With "git remote add origin <url of repository>" you can make a copy of an existing git repository and copy it into a local directory
+    With "git remote add origin <url of repository>" you can make a copy of an existing git repository and copy it into a local directory.
+     
+    Branching
+    The command "git branch" will show all branches available for your projects.
+    If you want to create a new branch use "git checkout -b <branch_name>".
+    e.g. branches can be used to fix bugs. Doing this on a new branch instead on the main code base, makes sure that unstable code is never commited to the main code base.
 
     
 
