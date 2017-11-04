@@ -1,0 +1,1 @@
+beside of the recommendation by the tutor, I've noticed that CLion IDE works great with Clang and also Cmake. this IDE lets us start quickly by removing some complexities of setting up the C code projects.
