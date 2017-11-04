@@ -1,0 +1,3 @@
+clang version 3.4.2 (tags/RELEASE_34/dot2-final)
+Target: x86_64-redhat-linux-gnu
+Thread model: posix

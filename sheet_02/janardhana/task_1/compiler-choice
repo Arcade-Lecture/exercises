@@ -1,0 +1,8 @@
+
+Reasons for choosing Clang :
+
+1. clang is much faster and requires less memory then gcc
+
+2. Clang has extremely clear error and warning messages and showing macro expansions 
+
+3. clang's support for C and C++ is more complaint then gcc in many ways
