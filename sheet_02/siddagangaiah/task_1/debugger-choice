@@ -1,0 +1,5 @@
+I will be using GDB for debugging. I was already installed on my machine and I faced difficulties while installing LLDB. 
+
+According to the reviews about GDB and LLDB, GDB is more complete and provides fine grain access while debugging but LLDB has UIUC license aviods conflicts while integrating into other softwares. 
+
+I want to try both of the debuggers during the course.
