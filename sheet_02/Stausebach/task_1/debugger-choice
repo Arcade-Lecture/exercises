@@ -1,0 +1,7 @@
+Code::Blocks internal debugger or gdb
+
+Setting up breakpoints and/or conditional breakpoints.
+  - Examine register values
+  - Step through code line-by-line
+  - Examine and modify variables
+  - Examine memory

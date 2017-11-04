@@ -1,0 +1,1 @@
+I decided to use GCC because GCC supports many languages (C, C++, ... ). It's highly portable, and widely used, and tends to produce good code.
