@@ -1,0 +1,4 @@
+I installed Perf profiler with version 4.13.4 by install the linux-tools 
+using this command:
+apt-get install linux-tools-generic 
+

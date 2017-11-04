@@ -1,0 +1,6 @@
+libapr1:
+I found this library already installed when I tryied apt-get install libapr1
+with the newest version (1.5.2-5)
+
+libapr1-dev:
+I installed it using apt-get install libapr1-dev and got the version (1.5.2-5) 
