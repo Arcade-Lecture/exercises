@@ -1,0 +1,5 @@
+CLION
+
+1- it can work on many platform, good for teams using different platfrom.
+2- uses CMAKE, which make the building process simpler and more elegant.
+3- has support to works with control version systems.	

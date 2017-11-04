@@ -1,0 +1,5 @@
+LLDB:
+
+The most basic reason, is the choice of the compiler it self which is CLANG.
+which doesn't mean you can't use GNU debugger with CLANG, it won't be 
+the same as using LLDB

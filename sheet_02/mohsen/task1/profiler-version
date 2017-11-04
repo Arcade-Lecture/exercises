@@ -1,0 +1,5 @@
+perf version 4.4.87
+
+sudo apt install linux-tools-common
+
+sudo apt-get install  linux-tools-4.4.0-97-generic
