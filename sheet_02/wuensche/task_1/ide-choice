@@ -1,0 +1,7 @@
+Why CLion?
+
+- for one writing C with an editor can be stressing because simple 
+errors may not make them obvious before a later part in the development
+- it also offers code analysis while coding to help the developer
+- additionally debugging works better with CLion because of their choice 
+of viewing the calculated values right in the editor

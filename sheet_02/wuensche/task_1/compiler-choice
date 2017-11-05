@@ -1,0 +1,13 @@
+Why GCC?
+
+- it is an easy and  widely used compiler for C on Linux systems and 
+will work even on Windows
+- it can compile not only C but also multiple other Languages like C++
+- it is a good general purpose compiler, more than enough for our plans 
+in this lecture
+
+Why not?
+
+- on highly on performance relying systems(embedded and security) GCC 
+may not be customizable enough compiler and can result in loss of performance
+-> but since this is not relevant for this lecture GCC will be used
