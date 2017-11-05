@@ -1,5 +1,0 @@
-Reasons for choosing CLION as my IDE :
-
-1. I'm not familiar working on C/C++ programming, since CLION provides intelligent autocompletion engine by predicting symbol or word I'm typing for, it will be helpful as a beginner.
-
-2. It is integrated with CMake build system and supports clang compilers and GDB debuggers.
