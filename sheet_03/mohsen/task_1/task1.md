@@ -33,7 +33,7 @@ can produces very good results, without wasting excessive time on management and
 
 | Property      | Definition                                                     | Relationship to other terms                               |
 |:-------------:|:--------------------------------------------------------------:|:---------------------------------------------------------:|
-| Sprint        |period of time during which specific work has to be completed   |meeting: the sprint starts with a team meeting             | |               |                                                                |planning: during the SCRUM meeting, will be the planning   |
+| Sprint        |period of time during which specific work has to be completed   |meeting: the sprint starts with a team meeting                       |                                                                |planning: during the SCRUM meeting, will be the planning   |
 |               |                                                                |for the scrum sprint                                       |
 |               |                                                                |Scrum master: draws a timeline for the sprint              | 
 |               |                                                                |Product owner: required features as use case               |
@@ -83,8 +83,9 @@ can produces very good results, without wasting excessive time on management and
 |               |                                                                |                                                           |
 |               |                                                                |                                                           |
 |               |                                                                |                                                           |
-|priortrization |determining which features in the backlog must be               |                                                           | |               |implemented, what can be, what could be                         |                                                           |
-|               |done by the product owner                                       |                                                           |  |               |                                                                |                                                           |  
+|priortrization |determining which features in the backlog must be               |                                                                    |implemented, what can be, what could be                         |                                                           |
+|               |done by the product owner                                       |                                                          |  
+
 
 ## Task 1.4
 
