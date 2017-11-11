@@ -31,60 +31,66 @@ can produces very good results, without wasting excessive time on management and
 >Provide an overview on the processes and their connections to each other!
 
 
-| Property      | Definition                                                     | Relationship to other terms                               |
-|:-------------:|:--------------------------------------------------------------:|:---------------------------------------------------------:|
-| Sprint        |period of time during which specific work has to be completed   |meeting: the sprint starts with a team meeting                       |                                                                |planning: during the SCRUM meeting, will be the planning   |
-|               |                                                                |for the scrum sprint                                       |
-|               |                                                                |Scrum master: draws a timeline for the sprint              | 
-|               |                                                                |Product owner: required features as use case               |
-|               |                                                                |development team: transfer the use cases into a product    |
-|               |                                                                |                                                           | 
-|               |                                                                |                                                           |
-|Planning       |at the beginning of the sprint, there is a planning meeting     |Sprint: it is a plan for the sprint                        |
-|               |between the different team members to specify what do in the    |                                                           |
-|               |sprint                                                          |                                                           | 
-|               |                                                                |                                                           |
-|meeting        |at the beginning of the sprint, there is a planning meeting     |Scrum master and the product owner and the develpment team |
-|               |between the different team members to specify what do in the    |                                                           |
-|               |sprint                                                          |                                                           | 
-|               |                                                                |                                                           |
-|               |                                                                |                                                           | 
-|product        |outcome of a sprint                                             |product features specified by the product owner            |
-|               |                                                                |implemented by the development team                        |
-|               |                                                                |                                                           | 
-|features       |what functions should the product have                          |product backlog where the features are written, by the     |
-|               |                                                                |the product owner                                          |
-|               |                                                                |implemented by the development team                        |
-|               |                                                                |                                                           | 
-|assignments    |typically the product owner: represents the customer needs      |product backlog where the features are written, by the     |
-|               |development team: the implementers of the requirements          |                                                           |
-|               | specified by the product owner they are self organized         |                                                           |
-|               | scrum master: faciliates the work between the product owner    |                                                           |
-|               | and the development team                                       |                                                           |
-|               |                                                                |                                                           | 
-|backlog        | documents of the work that is being done                       |                                                           |
-|               |   it has two types:                                            |                                                           |
-|               |  1- product backlog: described by the product owner            |                                                           |
-|               |     includes use cases of the required features                |                                                           |
-|               |                                                                |                                                           |
-|               |                                                                |                                                           |
-|               |  2- scrum backlog:The sprint backlog is a list of tasks        |                                                           | 
-|               |     identified by the Scrum team to be completed during        |                                                           |
-|               |     the Scrum sprint                                           |                                                           |
-|               |                                                                |                                                           |
-|               |                                                                |                                                           |
-|daily meeting  | 15 minutes meeting organized by the scrum master between       |                                                           |
-|               |  product owner and also the development team                   |                                                           |
-|               |  the members usally describe what they have done, what         |                                                           |
-|               |  obstacle face them and what they will do                      |                                                           | 
-|               |                                                                |                                                           |
-|               |                                                                |                                                           |
-|sprint review  | it is a meeting at the end of the sprint, to show the          |                                                           |
-|               |                                                                |                                                           |
-|               |                                                                |                                                           |
-|               |                                                                |                                                           |
-|priortrization |determining which features in the backlog must be               |                                                                    |implemented, what can be, what could be                         |                                                           |
-|               |done by the product owner                                       |                                                          |  
+Property        Definition                                                         Relationship to other terms                        
+
+Sprint          period of time during which specific work has to be completed       meeting: the sproduct                           
+                                                                                
+
+Planning        at the beginning of the sprint, there is a planning meeting        Sprint: it is a plan for the sprint                          
+               between the different team members to specify what do in the                                                                
+               sprint                                                                     
+
+
+
+                                                                                                                                          
+meeting        at the beginning of the sprint, there is a planning meeting     Scrum master and the product owner and the develpment team 
+               between the different team members to specify what do in the                                                               
+               sprint                                                                                                                      
+               
+
+                                                                                                                                           
+product        outcome of a sprint                                             product features specified by the product owner            
+                                                                               implemented by the development team                        
+               
+
+features       what functions should the product have                          product backlog where the features are written, by the     
+                                                                               the product owner                                          
+                                                                               implemented by the development team
+
+
+                                                                                                                                           
+assignments    typically the product owner: represents the customer needs      product backlog where the features are written, by the     
+               development team: the implementers of the requirements                                                                     
+                specified by the product owner they are self organized                                                                    
+                scrum master: faciliates the work between the product owner                                                               
+                and the development team                                                               
+
+
+                                                                                                                                           
+backlog         documents of the work that is being done                                                                                  
+                  it has two types:                                                                                                       
+                 1- product backlog: described by the product owner                                                                       
+                    includes use cases of the required features                                                                           
+                                                                                                                                          
+                                                                                                                                          
+                 2- scrum backlog:The sprint backlog is a list of tasks                                                                    
+                    identified by the Scrum team to be completed during                                                                   
+                    the Scrum sprint                                                                                                      
+                
+
+                                                                                                                                          
+daily meeting   15 minutes meeting organized by the scrum master between                                                                  
+                 product owner and also the development team                                                                              
+                 the members usally describe what they have done, what                                                                    
+                 obstacle face them and what they will do                                                                                  
+                                                                                                                                          
+                                                                                                                                          
+sprint review   it is a meeting at the end of the sprint, to show the                                                                     
+                                                                                                                                          
+                                                                                                                                          
+                                                                                                                                          
+priortrization determining which features in the backlog must be done by 
+               speicified by  the product owner                                                                                                   
 
 
 ## Task 1.4
