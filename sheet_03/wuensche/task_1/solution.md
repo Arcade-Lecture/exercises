@@ -84,6 +84,4 @@ WFM:
 - research and development department
 - development for known technologies
 - small projects 
-
-
-## Software Modeling with Design Patterns
+	
