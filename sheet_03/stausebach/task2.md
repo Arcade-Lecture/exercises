@@ -1,10 +1,8 @@
 Creational Pattern- prototype:
 
 	- new instances are based on a prototypical template
-	- the template is copied and customized for the task it was
-	created for
-	- it is usefull if the processing of the templates is
-	similar
+	- the template is copied and customized for the task it was created for
+	- it is usefull if the processing of the templates is similar
 
 Structural Pattern- adapter:
 
