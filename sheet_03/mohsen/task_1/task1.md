@@ -2,112 +2,109 @@
 
 ## Task 1.2
 
->Give a definition (or at least an in-depth description) on what the characters >of your particular method is! State the purpose and the principles you chosen >development method!
 
-The method I have chosen is SCRUM.
+>(2) Give a definition (or at least an in-depth description) on what the characters of your
+>particular method is! State the purpose and the principles you chosen development
+>method!
 
-> Definition:
+###SCRUM
 
-SCRUM is a framework for managing software projects, it is a concrete example of
-agile software development methodeligy, which by its return means it is an incremental and also iterative approach.
+is a project managment framework, it is a concrete example of the agile software management methdology, which means it is an iterative and an incremental approach.
 
-> Characteristics:
+The purpose: is to encourage early and continous delivery of the software product, it encourages the team to work independently, doesn't focus too much on management in comparsion with the classical methods of managing software.
 
-So SCRUM focuses on having small teams may be from 3 to 9 persons.
-SCRUM encourage the principle of having a working product as early as possible
-Using the term sprints, sprint could be thought of as a defined time period to have a working product typically from a week to a month.
-
-SCRUM also encourages the concept of face to face communication by having a daily meeting of the different scrum members.
-
-> Purpose and Principles:
-
-So the main reason I have chosen Scrum is because it is a successful framework,
-flexible to changes, provides a working product as nearly as possible, it also encourage the development team to be self driven, which if the team is skilled
-can produces very good results, without wasting excessive time on management and so on.
+it is considered as flexibile, can afford changes in the needs of the software,
+encourages communication between the team members.
 
 
-## Task 1.2
+## Task 1.3
 
 >Provide an overview on the processes and their connections to each other!
 
+>a.sprint:
+it is a time duration (week to a month) typically two weeks, by its end a working product is produced.
+it begins with a meeting between the product owner and the the developement team and the scrum master,
+to discuss what will be implemented during this sprint, ends with a meeting to discuss what is completed and what is not and what to do next.
 
-Property        Definition                                                         Relationship to other terms                        
+>b.planning:
+during the meeting that is held at the beginning of the sprint, the members gather and plan what will be executed throughout this sprint. typically the product owner determines what features and none functional requirements to be done, the development team views this requirement and determines what can be done during this run.
 
-Sprint          period of time during which specific work has to be completed       meeting: the sproduct                           
-                                                                                
+>c.meeting:
+during the scrum process several meetings are held, for example at the beginning of the sprint
+there is a planning meeting to determine the outcome of this sprint, during the sprint daily meeting is held to discuss what is done what will be done, and a review meeting at the end of the sprint.
 
-Planning        at the beginning of the sprint, there is a planning meeting        Sprint: it is a plan for the sprint                          
-               between the different team members to specify what do in the                                                                
-               sprint                                                                     
+>d.product:
+the output of a sprint, the business values of product is determined by the product owner, the technical implementation is done by the team.
 
+>e.feature:
+what value shall the product add, is determined by the product owner, it is written in the product log.
 
+>f.assignment to sprint:
+at the beginning of the sprint, a meeting is held to determine what will be done, the assignment in terms of what will be done is done during this meeting.
 
-                                                                                                                                          
-meeting        at the beginning of the sprint, there is a planning meeting     Scrum master and the product owner and the develpment team 
-               between the different team members to specify what do in the                                                               
-               sprint                                                                                                                      
-               
+>g.back log
+document to describe the work done in a sprint, there are two types of backlogs
 
-                                                                                                                                           
-product        outcome of a sprint                                             product features specified by the product owner            
-                                                                               implemented by the development team                        
-               
+1- product backlog:documents managed by the product owner to describe which features is needed during the sprint, in the meeting that is held at the beginning of the sprint, the members gather and plan what will be executed throughout this sprint
 
-features       what functions should the product have                          product backlog where the features are written, by the     
-                                                                               the product owner                                          
-                                                                               implemented by the development team
+2- sprint backlog: held by the development team, in which they transfer the features required by the product manager into tasks.
 
+>h.daily scrum meeting:
+is meeting held daily during the sprint, essentially the members shall be the ScrumMaster and the development team, though every one is welcome, the duration is typically 15 minutes, the members shall discuss what is done yesterday, and what they will do, and if there is any restrictions facing them.
 
-                                                                                                                                           
-assignments    typically the product owner: represents the customer needs      product backlog where the features are written, by the     
-               development team: the implementers of the requirements                                                                     
-                specified by the product owner they are self organized                                                                    
-                scrum master: faciliates the work between the product owner                                                               
-                and the development team                                                               
+>i.release:
+the output of a sprint, for each sprint a release is planned, in what is called the release plan note that this plan is static, can change.
+source: http://www.scrum-institute.org/Release_Planning.php
 
 
-                                                                                                                                           
-backlog         documents of the work that is being done                                                                                  
-                  it has two types:                                                                                                       
-                 1- product backlog: described by the product owner                                                                       
-                    includes use cases of the required features                                                                           
-                                                                                                                                          
-                                                                                                                                          
-                 2- scrum backlog:The sprint backlog is a list of tasks                                                                    
-                    identified by the Scrum team to be completed during                                                                   
-                    the Scrum sprint                                                                                                      
-                
+>j.increment:
+The Increment is the sum of all the Product Backlog items completed during a Sprint and the
+value of the increments of all previous Sprints.
+source: Scrum guide.
 
-                                                                                                                                          
-daily meeting   15 minutes meeting organized by the scrum master between                                                                  
-                 product owner and also the development team                                                                              
-                 the members usally describe what they have done, what                                                                    
-                 obstacle face them and what they will do                                                                                  
-                                                                                                                                          
-                                                                                                                                          
-sprint review   it is a meeting at the end of the sprint, to show the                                                                     
-                                                                                                                                          
-                                                                                                                                          
-                                                                                                                                          
-priortrization determining which features in the backlog must be done by 
-               speicified by  the product owner                                                                                                   
+
+>k.sprint review:
+at the end of the sprint a meeting is held at the end of the sprint, review the product backlog, discuss the work done and the work undone, what went through the sprint and what problems they have faced, discuss what to do next, in the next sprint.
+
+
+>m.prioritization:
+
+at the beginning of the sprint, the product owner priotrise what features to be done during this sprint, then the development team may follow this priotrization, or do the work differently.
+
+
+>n.scrum master:
+
+member of the scrum team, has the responsibilty to ensure the scrum principles are held, might coach the product owner and the development team to follow the scrum principles, and to handle the obstacles that might arises during work, in contrast to the old methodolgy the scrummaster isn't a leader or a manger.
+
+>o.product owner:
+
+member of the scrum team represents the business interest, works as a proxy between the scrum team and the the stakeholders, reposible for managing the product backlog to describe which features is needed during the sprint, in the meeting that is held at the beginning of the sprint, the members gather and plan what will be executed throughout this sprint. 
+
+>p. development team:
+
+is the team for converting the features in the product backlog to a done product during the sprint,
+the team is self managed so the ScrumMaster doesn't tell the team what to do.
 
 
 ## Task 1.4
 
+>(4) Provide a comparison with at least one other development method focusing on
+>commonalities and differences!
 
 
-1-Scrum teams typically work in iterations (called sprints) that are from two weeks to one month long. XP teams typically work in   iterations  that are one or two weeks long.
-   
-2-Scrum teams do not allow changes into their sprints. Once the sprint planning meeting is completed and a commitment made to delivering a set of product backlog items, that set of items remains unchanged through the end of the sprint. XP teams are much more amenable to change within their iterations. As long as the team hasn’t started work on a particular feature, a new feature of equivalent size can be swapped into the XP team’s iteration in exchange for the unstarted feature.
 
-3-Extreme Programming teams work in a strict priority order. Features to be developed are prioritized by the customer (Scrum’s Product Owner) and the team is required to work on them in that order. By contrast, the Scrum product owner prioritizes the product backlog but the team determines the sequence in which they will develop the backlog items. I’ve never seen a Scrum team not choose to work on the highest-priority item. And a Scrum team will very likely choose to work on the second most important. However, at some point one of the high priority items may not be a good fit for the sprint being planned—maybe a key person who should work on it will be swamped by work on higher priority items. Or maybe it makes sense to work on a slightly lower priority item (let’s say #10 on the product backlog instead of #6) because the team will be working in the code where #10 would be implemented.
+| Feature | SCRUM | XP |
+|------------------|--------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
+| similarities | follows the agile methodology by focusing on iteration and increments and early delivery of  a product | follows the agile methodology by focusing oniteration and increments and early delivery of a product |
+| iteration period | one week to a month | short iteratio perdiod typically a week |
+| adaptability | changes during the sprint isn't allowed | changes during the iteration is allowed |
+| application area | it is generic framework, could be applied to  other projects, rather than software projects | focuses on the area of software projects, by encouraging practises such as test driven development, pair programming...  |
 
-4-Scrum doesn’t prescribe any engineering practices; XP does.
 
-> source: https://www.mountaingoatsoftware.com/blog/differences-between-scrum-and-extreme-programming
+>## Task 1.5 
 
-## Task 1.5 
+>(5) Discuss when it is more useful to choose your particular method and the other(s) that
+>you add in (4).
 
 it is more useful to the XP, when the changes with the sprint is required
 
