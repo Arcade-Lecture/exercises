@@ -1,5 +1,5 @@
 # Adapter
-abstract:
+intent:
 
 Convert the interface of a class into another interface clients expect. Adapter lets classes
 work together that couldn't otherwise because of incompatible interfaces.
@@ -11,7 +11,7 @@ in compatiable with it, think of an API to calculate the area of geometrical sha
 the client deals with Meter
 
 
-# Abstract:
+# Factory Method:
 
 In class-based programming, the factory method pattern is a creational pattern that uses factory methods to deal with the problem of creating objects without having to specify the exact class of the object that will be created. This is done by creating objects by calling a factory method—either specified in an interface and implemented by child classes, or implemented in a base class and optionally overridden by derived classes—rather than by calling a constructor.
 
@@ -24,7 +24,7 @@ a single method that return the "suitable","wanted" type of animalss
 
 # State
 
-Abstract:
+intent:
 
 Allow an object to alter its behavior when its internal state changes. The object will
 appear to change its class.
