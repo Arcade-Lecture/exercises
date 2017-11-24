@@ -1,6 +1,6 @@
 1. *Creational Patterns: factory method*
 Factory method is used when we have an object with two or more subclasses and we need to call an instance of the subclass without knowing which subclass should use before the run time eg. if we have a main class A and there are two subclasses B & C of it and we don't know which subclasses should be called during runtime (B,C) so we made a factory method in the main class A to choose from B or C
-![factury method](factory_method.jpg)
+![factury method](factory_method.JPG)
 
 2. *Structural patterns: adapter method*
 Convert the interface of a class into another interface clients can deal with. Adapter lets classes with incompatible interfaces work together.
