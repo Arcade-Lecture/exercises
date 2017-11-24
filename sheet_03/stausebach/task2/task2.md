@@ -19,7 +19,7 @@ Behavioral pattern- stategy:
 Concurrency pattern-active object:
 
 	- The goal is to introduce concurrency, by using asynchronous method invocation and a scheduler for handling requests.
-	The pattern consists of six elements:[3]
+	The pattern consists of six elements:
 	A proxy, which provides an interface towards clients with publicly accessible methods.
 	An interface which defines the method request on an active object.
 	A list of pending requests from clients.
