@@ -36,45 +36,45 @@
 # Scum
 
 	sprint
-	  sprint is a set period of time during which specific work has to be completed and made ready for review.
+	  	sprint is a set period of time during which specific work has to be completed and made ready for review.
 	planning
-	  is the process of thinking about and organizing the activities required to achieve a desired goal.
-	  It involves the creation and maintenance of a plan, such as psychological aspects that require conceptual skills.
+		  is the process of thinking about and organizing the activities required to achieve a desired goal.
+		  It involves the creation and maintenance of a plan, such as psychological aspects that require conceptual skills.
 	meeting
-	  to discuss what need to do
+	  	to discuss what need to do
 	product
-	  a set of feature
+	  	a set of feature
 	feature
-	  necessary function to be implement
+	  	necessary function to be implement
 	assignment to sprint
-	  At the beginning of your sprint you should have a sprint planning meeting.
-	  This is where your team decides which user stories to deliver that sprint. 
-	  At the end of the meeting you should have a reasonable and prioritized sprint backlog.
+		  At the beginning of your sprint you should have a sprint planning meeting.
+		  This is where your team decides which user stories to deliver that sprint. 
+		  At the end of the meeting you should have a reasonable and prioritized sprint backlog.
 	back log
-	  The agile product backlog in Scrum is a prioritized features list, containing short descriptions of all functionality desired in the product. 
-	  When applying Scrum, it's not necessary to start a project with a lengthy, upfront effort to document all requirements.
+		  The agile product backlog in Scrum is a prioritized features list, containing short descriptions of all functionality desired in the product. 
+		  When applying Scrum, it's not necessary to start a project with a lengthy, upfront effort to document all requirements.
 	daily scrum meeting
-	  Each day during the sprint, a brief meeting called the daily scrum is conducted. 
-	  This meeting helps set the context for each day’s work and helps the team stay on track. All team members are required to attend the daily scrum.
+		  Each day during the sprint, a brief meeting called the daily scrum is conducted. 
+		  This meeting helps set the context for each day’s work and helps the team stay on track. All team members are required to attend the daily scrum.
 	release
-	  A very high-level plan for multiple Sprints (e.g. three to twelve iteration) is created during the Release planning. 
-	  It is a guideline that reflects expectations about which features will be implemented and when they are completed.
-	  It also serves as a base to monitor progress within the project.
+		  A very high-level plan for multiple Sprints (e.g. three to twelve iteration) is created during the Release planning. 
+		  It is a guideline that reflects expectations about which features will be implemented and when they are completed.
+		  It also serves as a base to monitor progress within the project.
 	increment
-	  The Product Increment is the sum of all Product Backlog items completed during a Sprint and all previous Sprints. 
-	  At the end of a Sprint the new Product Increment must be in a usable condition and meet the Scrum Team's Definition of Done.
+		  The Product Increment is the sum of all Product Backlog items completed during a Sprint and all previous Sprints. 
+		  At the end of a Sprint the new Product Increment must be in a usable condition and meet the Scrum Team's Definition of Done.
 	sprint review
-	  At the end of each sprint, the team demonstrates the completed functionality at a sprint review meeting, during which, the team shows what they accomplished during the sprint. 
-	  ypically, this takes the form of a demonstration of the new features, but in an informal way; for example, PowerPoint slides are not allowed. 
-	  The meeting must not become a task in itself nor a distraction from the process.
+		  At the end of each sprint, the team demonstrates the completed functionality at a sprint review meeting, during which, the team shows what they accomplished during the sprint. 
+		  ypically, this takes the form of a demonstration of the new features, but in an informal way; for example, PowerPoint slides are not allowed. 
+		  The meeting must not become a task in itself nor a distraction from the process.
 	product backlog:
-	  The product backlog is a prioritized features list containing every desired feature or change to the product. 
-	  Note: The term “backlog” can get confusing because it’s used for two different things. To clarify, the product backlog is a list of desired features for the product. 
-	  The sprint backlog is a list of tasks to be completed in a sprint.
+		  The product backlog is a prioritized features list containing every desired feature or change to the product. 
+		  Note: The term “backlog” can get confusing because it’s used for two different things. To clarify, the product backlog is a list of desired features for the product. 
+		  The sprint backlog is a list of tasks to be completed in a sprint.
 	prioritization:
-	  All entries are prioritized and the Scrum Product Backlog is ordered. 
-	  The Scrum Product Owner with the help of the Scrum Team does the prioritization. Added Value, Costs and Risks are the most common factors for prioritization. 
-	  With this prioritization the Scrum Product Owner decides what should be done next.
+		  All entries are prioritized and the Scrum Product Backlog is ordered. 
+		  The Scrum Product Owner with the help of the Scrum Team does the prioritization. Added Value, Costs and Risks are the most common factors for prioritization. 
+		  With this prioritization the Scrum Product Owner decides what should be done next.
 	scrum master:
 	  	The Scrum Master is responsible for making sure the team is as productive as possible.
 	  	The Scrum Master does this by helping the team use the Scrum process, by removing impediments to progress, by protecting the team from outside, and so on.
@@ -82,7 +82,11 @@
 	  	The product owner is the project’s key stakeholder and represents users, customers and others in the process. 
 	  	The product owner is often someone from product management or marketing, a key stakeholder or a key user.
 	team :
-	  	A typical scrum team has between five and nine people, but Scrum projects can easily scale into the hundreds. However, Scrum can easily be used by one-person teams and often is. This team does not include any of the traditional software engineering roles such as programmer, designer, tester or architect. Everyone on the project works together to complete the set of work they have collectively committed to complete within a sprint. Scrum teams develop a deep form of camaraderie and a feeling that “we’re all in this together.”
+	  	A typical scrum team has between five and nine people, but Scrum projects can easily scale into the hundreds. 
+	  	However, Scrum can easily be used by one-person teams and often is. 
+	  	This team does not include any of the traditional software engineering roles such as programmer, designer, tester or architect. 
+	  	Everyone on the project works together to complete the set of work they have collectively committed to complete within a sprint. 
+	  	Scrum teams develop a deep form of camaraderie and a feeling that “we’re all in this together.”
 
 
 # Srum vs Kanban
