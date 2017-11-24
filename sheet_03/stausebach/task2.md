@@ -24,3 +24,10 @@ Concurrency pattern-scheduling:
 	 onto hardware resources such as processors,
 	 network links or expanision cards
 
+diverse pattern-null object:
+
+	A null object is an object with no referenced value or with defined neutral "null" behavior.
+	The null object pattern describes how to use these objects and their behavior.
+	The advantage of this approach over a working default implementation is that a Null Object is very predictable and has no side effects: it does nothing.
+	For example, a function may retrieve a list of files in a folder and perform some action on each. In the case of an empty folder, one response may be to throw an exception or return a null reference rather than a list. Thus, the code which expects a list must verify that it in fact has one before continuing, which can complicate the design.
+	By returning a null object (i.e. an empty list) instead, there is no need to verify that the return value is in fact a list.
