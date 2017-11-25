@@ -1,0 +1,26 @@
+Extreme Programming :
+
+(2) Definition and principles
+
+- It is an approach to continously deliver software iterations in a very short time
+- It promotes feedbacks and working very close to customer 
+- communication and feedback plays  the vital role in the approach
+- It typically delivers the software high frequently such as in 1-3 weeks.
+
+(3) Overview on Processes (Relations in braces to the corresponding process)
+
+1.User Stories-->(1.requirements) 2.Release planning-->(2. Estimates) 3.Spike-->(2.Release plan) 4. Iteration--> (4. Latest version) (1. Test Scenarios) 5.Acceptance Tests -->(5. Customer Approval) 6. Small Releases
+
+(4) Commonalities and Differences with one other method (Lean Programming)
+
+-(c) involves extensive customer involvement and frequent software delivery
+-(D) lean approach incorporates value addition or waste removal as a driving principle for the approach as a result higher efficiency is on the cards.
+
+(5) Situation useful for Lean and Extreme Programming approaches
+
+-Lean : When Efficiency of the resources used is to be prioritized along with other Agile properties. And a value is to be added to the product.
+-Extreme : When customer feedback is prioritized for a quick and quality software delivery
+ 
+
+
+
