@@ -19,7 +19,7 @@
 - 9: The printf function is part of the C core-language.
 	+ This is wrong, because printf is included in standard library which is not part of the c core.
 - 10: With the latest changes, a new string type was added to C (with the specification 2795 as of http://www.faqs.org/rfcs/rfc2795.html).
-	+ 
+	+ This is correct.
 - 11: Object destruction is deterministic in C.
 	+ This is right, Object destruction in C is basically executing a free on the desired memory space which is deterministic in C.
 - 12: Dynamic memory allocation must be explicitly managed by the programmer.
@@ -29,7 +29,7 @@
 - 14: The preprocessor directive “#force” is part of the C language.
 	+ This is wrong.
 - 15: The C preprocessor supports file inclusion, macro substitution and conditional complication.
-	+ 
+	+ This is correct.
 - 16: Before C11, every C program based on a single-threaded memory model.
 	+ This is correct, C11 introduced multithreading.
 - 17: Memory leaks will be no longer a problem once Non-Volatile RandomAccess Memory (NVRAM) becomes mainstream.
@@ -90,4 +90,19 @@
 	+ This is correct, e.g. for some calculations useful.
 - 43: Explicit type conversion happens when an expression result differs from the expected type.
 	+ This is correct.
-- 44: 
+- 44: When casting integers to floats, there may be the risk of data loss.
+	+ This is wrong, when casting integer to float no accuracy is lost the other way around is not that easy.
+- 45: When casting characters to integers no data loss can happen.
+	+ This is correct, since char is just a one byte integer integer must be the same size or larger.
+- 46: An object is a piece of memory having a particular value that is the (typespecific) interpretation of that piece of memory.
+	+ This is correct.
+- 47: Padding is alignment of composite types to natural address boundaries to improve memory access performance and must be explicitly turned off.
+	+ This is correct.
+- 48: The string “2lower“ is a valid identifier in the C language.
+	+ This is wrong.
+- 49: Preprocessor macro names must be always written in capital letters as enumeration constant names must be also written in capital letters.
+	+ This is correct.
+- 50: You are allowed to define the function void *malloc(size_t, size_t).
+	+ This is wrong.
+- 51: You are allowed to define the function const void *return(int).
+	+ This is wrong.
