@@ -20,6 +20,9 @@ so we will have to do WET style ..... typing the same code snippt again
 
 >(3) Give a DRY code example by modify your code example of (1)!
 
+so simply by making it in a form of a function, so you wouldn't need
+to copy and paste code, or retyping it
+
 	int compare_ints(int lhs, int rhs)
 	{
 		if (lhs > rhs){
