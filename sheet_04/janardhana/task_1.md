@@ -58,32 +58,32 @@ int main () {
 	 int i;
 	 char *name;
 	 char *country;
-			printf("Enter Student Id to print details :");
-			scanf("%d", &val);
-			switch(val){
-            case 1:
+	 printf("Enter Student Id to print details :");
+	 scanf("%d", &val);
+	 switch(val){
+          case 1:
                 name="Steve";
                 country="USA";
                 printDetails(val, name, country);
                 break;			
-			case 2:
+	   case 2:
                 name="Mathew Hayden";
                 country="Australia";
                 printDetails(val, name, country);
                 break;
-			case 3:
+	   case 3:
                 name="Jimmy fallon";
                 country="United Kingdom";
                 printDetails(val, name, country);
                 break;
-			case 4:
+	   case 4:
                 name="Adithya";
                 country="India";
                 printDetails(val, name, country);
                 break;
-			default :
+	    default :
                   printf("Please check the entered Id!!\n");
-			}
+	}
   return 0;
 }
 
