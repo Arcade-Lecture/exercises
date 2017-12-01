@@ -47,9 +47,9 @@ int main()
   return 0;
 }
 
-```c
-**The repeatation of print statements can be factored into one single function called printDetails(id, name, country)as input parameters and the initialization of variables can generalised.**
 ```
+**The repeatation of print statements can be factored into one single function called printDetails(id, name, country)as input parameters and the initialization of variables can generalised.**
+```c
 #include <stdio.h>
 #include <string.h>
 
