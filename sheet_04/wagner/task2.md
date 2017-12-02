@@ -1,0 +1,55 @@
+# C: Right or Wrong ?
+
+1. Wrong
+2. Wrong
+3. Wrong
+4. Correct
+5. Correct
+6. Wrong
+7. Correct
+8. Correct
+9. Wrong
+10. Correct
+11. Correct
+12. Correct
+13. Wrong
+14. Wrong
+15. Correct
+16. Correct
+17. Wrong
+18. Wrong
+19. Correct
+20. Wrong
+21. Correct
+22. Wrong
+23. Correct
+24. Wrong
+25. Correct
+26. Correct
+27. Wrong
+28. Correct
+29. Correct
+30. Wrong
+31. Wrong
+32. Correct
+33. Correct
+34. Correct
+35. Wrong
+36. Wrong
+37. Wrong
+38. Wrong
+39. Correct
+40. Wrong
+41. Correct
+42. Correct
+43. Wrong
+44. Wrong
+45. Correct
+46. Correct
+47. Correct
+48. Wrong
+49. Wrong
+50. Wrong
+51. Wrong
+
+
