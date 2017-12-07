@@ -1,0 +1,11 @@
+## Expressions and More: Right or Wrong
+- 1: Right. At first a is returned/evaluated and then incremented.
+- 2: Right. Both expressions return the decremented value of a.
+- 3: Wrong. foo() calls the function foo and returns a value of the specified type or nothing if it's void.
+- 4: Right. (i + j) can not be assigned, consequently it's a rvalue.
+- 5: Wrong. The compiler must not store it in a register, it only says that the variable should be stored in a register.
+- 6: Right. According to the lecture, static storage class has internal linkage and automatic duration.
+- 7: Right. If the programmer forgets to free the allocated storage, a memory leak can appear
+- 8: Wrong. Not quite sure but if the programmer wants to assign the same value to different elements, let him do :)
+- 9: Right. See http://en.cppreference.com/w/c/language/operator_precedence
+- 10: Wrong. If a = 0 you can shift as much as you want, it won't return true.
