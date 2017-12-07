@@ -1,0 +1,14 @@
+﻿1. No, it terminates but returns 1.  
+
+2.   
+
+3.   
+
+4.  
+a. The value of this variable is kept between invocations of the function, the variable isn't deleted after the call.  
+b. On each invocation a new variable would be created, the value would equal to whatever was in the memory before.  
+c. No, the result does not change because the variable `state` isn't returned and doesn't affect the values of `x` and `y`.  
+
+5. No, it's not necessary
+
+6. The function returns not the value -84, but 4294967212. This happens because -82 is a negative number, but `state` has `long unsigned long` type. Can be fixed by removing `unsigned`.
