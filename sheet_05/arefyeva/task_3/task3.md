@@ -14,6 +14,6 @@
 
 8. Wrong. It's not a problem if members of different structures have the same name.
 
-9. Right. They both have the 3rd precedence - https://en.wikipedia.org/wiki/Operators_in_C_and_C%2B%2B#Operator_precedence .
+9. Right. They both have the 3rd precedence - https://en.wikipedia.org/wiki/Operators_in_C_and_C%2B%2B#Operator_precedence . However, in the expression `(char)a++`, `a++` would be executed first because it's a bit higher.
 
 10. Wrong. << means a byte shift, not a comparison.
