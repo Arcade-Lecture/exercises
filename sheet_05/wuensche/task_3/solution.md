@@ -13,7 +13,7 @@
 	- This is wrong, having two left side variables before an assigment operator is not allowed due to C syntax.
 
 + 5
-	- This is wrong, register indicates to the compiler that that variable will experience heavy usage and is preferably stored in the processor register.
+	- This is correct, register indicates to the compiler that that variable will experience heavy usage and is preferably stored in the processor register.
 
 + 6
 	- This is wrong, the storage duration will be just set to the whole liftime of the program and will not be set automatic to a specific duration.
