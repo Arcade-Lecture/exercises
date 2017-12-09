@@ -21,14 +21,13 @@
 
     a.   static keyword makes the state variable lifetime to be same as process life time and can be accessed from all scopes in its translation unit.
 
-    b. On removal of static keywork scope becomes automatic and state can be referenced only with in state function.
+    b. On removal of static keywork scope becomes function scope and state can be referenced only with in state function.
 
-    c.  No, result doesnt change. state variable is only target of assignment operator, It has not been used anywhere else.
+    c.  Yes, state variable will be initilized every time the function state is called. If it was static it would have retained its old value.
 
 5.  No, explicit typecast is not necessary.
 
-6.  state function only returns long unsigned long. So the left most bit of the return value will not be considered as sign and a positive value will be returned by the function even though the result was -84. 
-We can drop the unsigned key word from the function return type to fix the isssue.
+6.  Depending on previous calls to the state function the calculated value to be returned can be either positive or negative. But as the return type of the function is long unsigned long it always returns positive value. This can be fixed by dropping the unsigned keyword.
 
 
 
