@@ -6,8 +6,6 @@
 #include "stdlib.h"
 #include "sys/time.h"
 
-//0391 2439944
-
 struct nsm_lineitem_tuple_t {
 	uint32_t orderkey;
 	uint32_t partkey;
