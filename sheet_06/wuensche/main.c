@@ -104,10 +104,10 @@ int main(void)
 			printf("%i %i %i %s \n",nsm_table.tuples[pos].orderkey, nsm_table.tuples[pos].partkey, nsm_table.tuples[pos].suppkey, nsm_table.tuples[pos].comment);
 			++counter;
 		}
-		++pos;
 		if(counter == n || pos == NUM_TUPLES){
 			break;
 		}
+		++pos;
 	}
 
 	gettimeofday(&timeval, NULL);
