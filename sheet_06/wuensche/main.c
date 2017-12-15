@@ -90,6 +90,7 @@ int main(void)
 
 	int counter = 0;
 	int pos = 0;
+	int true_counter = 0;
 
 	//Time foo 
 	struct timeval timeval;
@@ -99,21 +100,23 @@ int main(void)
 
 	while(1){
 		if(strstr(nsm_table.tuples[pos].comment,line)){
-			printf("%i %i %i %s \n",nsm_table.tuples[pos].orderkey, nsm_table.tuples[pos].partkey, nsm_table.tuples[pos].suppkey, nsm_table.tuples[pos].comment);
+			if(true_counter != n){
+				printf("%i %i %i %s \n",nsm_table.tuples[pos].orderkey, nsm_table.tuples[pos].partkey, nsm_table.tuples[pos].suppkey, nsm_table.tuples[pos].comment);
+				++true_counter;
+			}
 			++counter;
 		}
-		if(counter == n || pos == NUM_TUPLES){
+		if(pos == NUM_TUPLES){
 			break;
 		}
 		++pos;
 	}
 
 	gettimeofday(&timeval, NULL);
-end = (long)timeval.tv_sec * 1000 + (long)timeval.tv_usec / 1000;
+	end = (long)timeval.tv_sec * 1000 + (long)timeval.tv_usec / 1000;
 
 	printf("%i records in total, %d ms\n", counter, end-start);
 	printf("############################################\n");
 	}
-/* TODO: add code here */
-return 0;
+	return 0;
 }
