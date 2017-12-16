@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/arcade_sh06.dir/main.c.o CMakeFiles/arcade_sh06.dir/src/lineitem_tbl.c.o  -o arcade_sh06 

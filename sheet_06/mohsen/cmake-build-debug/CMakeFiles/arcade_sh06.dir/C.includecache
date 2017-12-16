@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../includes/lineitem_tbl.h
+inttypes.h
+-
+stdlib.h
+-
+
+/Users/pegasus/CLionProjects/arcade_sh06/main.c
+stdio.h
+-
+lineitem_tbl.h
+-
+stdbool.h
+-
+string.h
+-
+sys/time.h
+-
+
+/Users/pegasus/CLionProjects/arcade_sh06/src/lineitem_tbl.c
+lineitem_tbl.h
+-
+stdlib.h
+-
+
