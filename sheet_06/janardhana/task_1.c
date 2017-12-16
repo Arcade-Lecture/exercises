@@ -74,7 +74,7 @@ main (void)
   printf ("Database Size: %f MiB\n", dbSize);
 
   printf
-    ("SELECT orderkey, partkey, suppkey, comment FROM lineitem WHERE comment LIKE %%x\%%  LIMIT n\n");
+    ("SELECT orderkey, partkey, suppkey, comment FROM lineitem WHERE comment LIKE %%x%%  LIMIT n\n");
 
   while (1)
     {
